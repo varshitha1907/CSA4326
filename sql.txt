@@ -1,0 +1,21 @@
+<form method="post">
+Enter your Name:
+<input type="text" name="name">
+
+<input type="submit" name="submit" value="insert">
+</form>
+<?php
+$c=mysqli_connect("localhost" ,"root", "");
+mysqli_query($c,"CREATE DATABASE IF NOT EXISTS IP");
+mysqli_select_db($c, "IP");
+mysqli_query($c,"CREATE TABLE IF NOT EXISTS user(name VARCHAR(50)");
+
+
+
+
+
+<?php
+if(isset($_post['submit']))
+$name=$_post['name']))
+if($
+
